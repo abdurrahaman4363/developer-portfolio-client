@@ -5,10 +5,13 @@ import resume from '../../assets/document/Abdur Rahaman-update-resume.pdf'
 const Navbar = () => {
     const manuItems = <>
         <li><Link to="/home">Home</Link></li>
+        <li><Link to="/projectDetails">Projects</Link></li>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/blogs">Blogs</Link></li>
         <li><a href={resume} download>Download Resume</a></li>
     </>
     return (
-        <div class="navbar bg-slate-500 text-white">
+        <div class="navbar bg-slate-500 text-white sticky top-0 z-50">
             <div class="navbar-start">
                 <div class="dropdown">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">
