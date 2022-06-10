@@ -11,7 +11,7 @@ const Projects = () => {
 
             <div className='grid  sm:grid-cols-1 lg:grid-cols-3 gap-4 px-10'>
 
-                <div class="card card-compact w-96 bg-base-100 shadow-xl">
+                <div class="card card-compact lg:max-w-lg bg-base-100 shadow-xl">
                     <figure><img src={pic1} alt="" /></figure>
                     <div class="card-body">
                         <h2 class="card-title">Agriculture Manufacturer </h2>
@@ -30,7 +30,7 @@ const Projects = () => {
                 </div>
 
 
-                <div class="card card-compact w-96 bg-base-100 shadow-xl">
+                <div class="card card-compact lg:max-w-lg bg-base-100 shadow-xl">
                     <figure><img src={pic2} alt="" /></figure>
                     <div class="card-body">
                         <h2 class="card-title">Book Store</h2>
@@ -48,7 +48,7 @@ const Projects = () => {
                 </div>
 
 
-                <div class="card card-compact w-96 bg-base-100 shadow-xl">
+                <div class="card card-compact lg:max-w-lg bg-base-100 shadow-xl">
                     <figure><img src={pic3} alt="" /></figure>
                     <div class="card-body">
                         <h2 class="card-title">Gym Center</h2>

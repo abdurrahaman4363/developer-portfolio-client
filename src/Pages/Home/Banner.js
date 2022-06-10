@@ -7,7 +7,7 @@ const Banner = () => {
         <div class="hero min-h-screen bg-base-200">
         <div class="hero-content flex-col lg:flex-row-reverse">
          <a href={pic1} download>
-         <img src={pic1} class="max-w-sm rounded-lg shadow-2xl" alt='' />
+         <img src={pic1} class="max-w-sm rounded-lg shadow-2xl w-full" alt='' />
          </a>
           <div>
             <h1 class="text-5xl font-bold">Hello, I'M <span className='text-orange-500'>Abdur Rahaman</span></h1>
