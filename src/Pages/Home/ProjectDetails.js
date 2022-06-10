@@ -6,7 +6,7 @@ import pic3 from '../../assets/images/Capture2.PNG'
 
 const ProjectDetails = () => {
     return (
-        <div className='bg-base-200'>
+        <div className='bg-base-200 pb-10'>
         <h2 className='text-black font-bold text-xl py-10'>My Projects</h2>
 
         <div className='grid  sm:grid-cols-1 lg:grid-cols-3 gap-4 px-10'>
