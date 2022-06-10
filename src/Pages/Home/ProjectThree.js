@@ -6,7 +6,7 @@ import pic5 from '../../assets/images/projectThreePic2.PNG'
 const ProjectThree = () => {
     return (
         <div>
-            <div className='grid  sm:grid-cols-1 lg:grid-cols-3 gap-4 px-10 py-10'>
+            <div className='grid  sm:grid-cols-1 lg:grid-cols-3 gap-10 px-10 py-10'>
             <div>
                 <div><img src={pic3} alt="" /></div>
             </div>
